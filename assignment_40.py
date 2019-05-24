@@ -1,8 +1,7 @@
 #PF-Assgn-40
 def is_palindrome(word):
     l=word.lower()
-    r=l[::-1]
-    if(l==r):
+    if(l==l[-1::-1]):
         return True
     else:
         return False
