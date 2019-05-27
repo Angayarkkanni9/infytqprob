@@ -1,7 +1,7 @@
 #PF-Prac-4
 def find_nine(nums):
-    for i in range(0,4):
-        if(nums[i]==9):
+    for i in range(0,len(nums):
+        if(nums[i]==9 and i<4):
             return True
     else:
         return False
