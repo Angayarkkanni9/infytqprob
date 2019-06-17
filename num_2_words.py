@@ -16,6 +16,8 @@ def int_to_words(t):
             return d[t//100]+" "+"hundred and"+" "+int_to_words(t%100)
     if(t==1000):
         return("one thousand")
+    if(t>1000):
+        return(-1)
 n=int(input())
 k=len(str(n))
 t=int(n)
